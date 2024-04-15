@@ -6,14 +6,10 @@ This course provides a unique opportunity for students in the MS in Data Science
 
 ## Team Structure
 
-Select a team captain (with or without help from mentor/instructor/supervisor)
-
-Record your names here in this format-
-1. Team captain name, UNI
-2. Member name, UNI
-3. Member name, UNI
-
-and so on.   
+1. Gauri Samith (gs3280@columbia.edu)
+2. Arjun Bhan (ab5666@columbia.edu)
+3. Nicole Brye (nab2217@columbia.edu)
+4. Elie Chemouni (ec3778@columbia.edu)
 
 ## Instructions
 
