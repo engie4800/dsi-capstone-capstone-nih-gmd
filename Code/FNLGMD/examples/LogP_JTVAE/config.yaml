@@ -1,9 +1,9 @@
 model_type: 'jtnn-fnl'
 
-smiles_input_file: './examples/LogP_AutoGrow/zinc_smiles.txt'
+smiles_input_file: './examples/LogP_AutoGrow/zinc_smiles.txt' #'./examples/LogP_AutoGrow/new_data.txt' for Zinc + Opera
 output_directory: './examples/LogP_JTVAE/'
 scorer_type: 'LogPTestCase'
-num_epochs: 1
+num_epochs: 1 #0 for initial population scores
 
 #Selection/Optimization params
 optimizer_type: 'geneticoptimizer'
