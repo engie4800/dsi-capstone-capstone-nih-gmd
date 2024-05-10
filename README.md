@@ -27,7 +27,7 @@ This project aims to accelerate drug discovery by generating novel molecules tha
 
 ## Acknowledgements
 
-We would like to express our gratitude and appreciation to our industry mentors <b>Pinyi Lu</b>, <b>Naomi Ohashi</b>, and <b>Justin Overhulse</b> for the guidance and professional support. We would additionally like to thank <b>Sining Chen</b>, <b>Swasthi P. Rao</b>, and <b>Savanahh Thais</b> for an excellent semester. Finally, we would also like to thank the following organizations for their support:
+We would like to express our gratitude and appreciation to our industry mentors <b>Pinyi Lu</b>, <b>Naomi Ohashi</b>, and <b>Justin Overhulse</b> for the guidance and professional support. We would additionally like to thank <b>Sining Chen</b>, <b>Swasthi P. Rao</b>, and <b>Savannah Thais</b> for an excellent semester. Finally, we would also like to thank the following organizations for their support:
 
 * Columbia University
 * Frederick National Laboratory
