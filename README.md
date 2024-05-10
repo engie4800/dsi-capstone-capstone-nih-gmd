@@ -1,36 +1,34 @@
-# Data Science Capstone & Ethics (ENGI E4800)
+# Generative Molecular Design for Novel Drug Cancer Candidates
 
-## Course overview
+## Project Overview
 
-This course provides a unique opportunity for students in the MS in Data Science program to apply their knowledge of the foundations, theory and methods of data science to address data driven problems in industry, research, government and the non-profit sector. The course activities focus on a semester-long project sponsored by an affiliate company or a Columbia faculty member. The project synthesizes the statistical, computational, engineering and social challenges involved in solving complex real-world problems. The course has a well developed Ethics component supported by Dr. Savannah Thais. 
+This project aims to accelerate drug discovery by generating novel molecules that exhibit desired properties. As such, this repository contains a comprehensive pipeline for generative molecular design using the ATOM GMD Framework. The project leverages two deep learning based modes, JT-VAE and Autogrow4, for molecular optimization. To evaluate the molecules optimized by both models, we employed optimization parameter manipulation, initial population fine tuning, and extensive visualization techniques to provide detailed comparisons between different models. 
 
 ## Team Structure
 
-Select a team captain (with or without help from mentor/instructor/supervisor)
+1. Gauri Samith<sup>*</sup> (gs3280@columbia.edu)
+2. Arjun Bhan (ab5666@columbia.edu)
+3. Nicole Brye (nab2217@columbia.edu)
+4. Elie Chemouni (ec3778@columbia.edu)
 
-Record your names here in this format-
-1. Team captain name, UNI
-2. Member name, UNI
-3. Member name, UNI
+<sup>*</sup> Team Leader
 
-and so on.   
+## Repository Structure
 
-## Instructions
+```
+├── code/                       # Code files 
+│   ├── FNLGMD/                 # Main GMD repository contained as a sub-module. This repository was forked from here:
+│   └── results/                # Results files 
+│   └── test/                   # Model data and weights 
+│   └── EDA.ipynb/              # Exploratory data analysis
+├── README.md                   # Project README (this file)
+└── requirements.txt            # Dependencies
+```
 
-The CourseInfo folder has the templates for your  reports, progress log, meeting minutes with your mentors. These are the deliverables you need to save as .pdf files and upload in this repository. Additionally the folder also contains sample meeting presentations and tips, report grading rubrics, student-mentor email templates and syllabus for your reference.
+## Acknowledgements
 
-1. Regularly work on developing your code, provide repository access to your industry mentor/instructor
-2. Update your project task status weekly in our progress log and github project board.
-3. Record your progress in the reports.
-4. Employ a mechanism to select weekly presenter at the mentor meetings 
-5. Note down the meeting minutes on a weekly basis
+We would like to express our gratitude and appreciation to our industry mentors <b>Pinyi Lu</b>, <b>Naomi Ohashi</b>, and <b>Justin Overhulse</b> for the guidance and professional support. We would additionally like to thank <b>Sining Chen</b>, <b>Swasthi P. Rao</b>, and <b>Savanahh Thais</b> for an excellent semester. Finally, we would also like to thank the following organizations for their support:
 
-## Main Deliverables
-
-1. Code
-2. Reports- Midterm Progress Report, Final Report, Ethics Report
-3. Progress Log
-4. Meeting Minutes
-
-The code can be placed in a folder named code, and the remaining files can be placed as .pdf files in the root directory.
-   
+* Columbia University
+* Frederick National Laboratory
+* Atom Consortium
