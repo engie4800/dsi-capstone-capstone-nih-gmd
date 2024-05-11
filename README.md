@@ -17,13 +17,16 @@ This project aims to accelerate drug discovery by generating novel molecules tha
 
 ```
 ├── code/                       # Code files 
-│   ├── FNLGMD/                 # Main GMD repository contained as a sub-module. This repository was forked from here:
+│   ├── FNLGMD/                 # Main GMD repository contained as a sub-module. This repository was forked from here: https://github.com/SeanTBlack/FNLGMD
 │   └── results/                # Results files 
-│   └── test/                   # Model data and weights 
-│   └── EDA.ipynb/              # Exploratory data analysis
+│   └── data/                   # Data files to run Autogrow4 and JTVAE models
+│   └── config/                 # Config files
+│   └── notebooks/              # Notebooks containing our personal work
 ├── README.md                   # Project README (this file)
-└── requirements.txt            # Dependencies
 ```
+
+## About the Repository
+This repository contains the submodule / framework that we used to run both JTVAE and AutoGrow models, the configuration files with the parameters used to run the models, the data, and notebooks containing our personal work. Please refer to the `notebooks` folder, as well as the individual branches with our names labeled to see our personal work on this project and the results and figures generation process.
 
 ## Acknowledgements
 
