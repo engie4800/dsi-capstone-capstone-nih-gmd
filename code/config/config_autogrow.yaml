@@ -1,7 +1,7 @@
 model_type: 'autogrow'
 
-smiles_input_file: './examples/LogP_AutoGrow/all.txt'
-output_directory: './examples/LogP_AutoGrow/'
+smiles_input_file: '../data/zinc_opera_smiles.txt'
+output_directory: '../results'
 scorer_type: 'LogPTestCase'
 num_epochs: 1
 
