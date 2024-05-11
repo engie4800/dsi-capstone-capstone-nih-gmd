@@ -1,6 +1,6 @@
 model_type: 'jtnn-fnl'
 
-smiles_input_file: './examples/lipo.txt'
+smiles_input_file: '../data/zinc_opera_smiles.txt'
 output_directory: '../results'
 scorer_type: 'LogPTestCase'
 num_epochs: 5
@@ -21,5 +21,5 @@ max_population: 50
 
 #Generative model parameters:
 ##FNL JTVAE specific
-vocab_path: '../test/all_vocab.txt'
-model_path: '../test/model.epoch-35'
+vocab_path: '../data/all_vocab.txt'
+model_path: '../data/model.epoch-35'
